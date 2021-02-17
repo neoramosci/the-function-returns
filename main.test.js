@@ -2,7 +2,39 @@
  * YOUR CODE HERE *
  ******************/
 
+let  greeting = 'Hello'
+let sum = 0
+let prod = 0
 
+function greet(fname){
+ greeting = 'Hello' + " " + fname;
+}
+
+function sumOfTwo(num1,num2){
+  sum = num1 + num2;
+}
+
+function multiply(num1,num2,num3){
+  prod = num1 * num2 * num3;
+}
+
+function sayHi(fname){
+  let sayHi = fname;
+  return "Hello" + " " + fname + "!";
+}
+
+function returnWhatISay(askstudents){
+  let returnWhatISay = askstudents;
+  return askstudents;
+}
+
+function divide(num1,num2){
+  return num1 / num2;
+}
+
+function remainder(num1,num2){
+  return num1 % num2
+}
 
 
 /*********************************************************************************************************************
